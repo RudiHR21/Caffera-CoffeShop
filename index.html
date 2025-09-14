@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Coffe Website | Cafféra</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<!--header / navbar -->
+	<header>
+		<nav class="navbar section-content">
+			<a href="#" class="nav-logo">
+				<h2 class="logo-text">Cafféra</h2>
+			</a>
+			<ul class="nav-menu">
+				<button id="menu-close-button" class="fas fa-times"></button>
+
+
+				<li class="nav item">
+					<a href="#" class="nav-link">HOME</a>
+				</li>
+				<li class="nav item">
+					<a href="#about" class="nav-link">ABOUT</a>
+				</li>
+				<li class="nav item">
+					<a href="#menu" class="nav-link">MENU</a>
+				</li>
+				<li class="nav item">
+					<a href="#testimonials" class="nav-link">TESTIMONI</a>
+				</li>
+				<li class="nav item">
+					<a href="#gallery" class="nav-link">GALLERY</a>
+				</li>
+				<li class="nav item">
+					<a href="#contact" class="nav-link">CONTACT</a>
+				</li>
+			</ul>
+
+			<button id="menu-open-button" class="fas fa-bars"></button>
+		</nav>
+	</header>
+	
+	<main>
+	<!-- hero section -->
+	<section class="hero-section">
+			<div class="section-content">
+				<div class="hero-details">
+					<h2 class="title">Best Coffe</h2>
+					<h3 class="subtitle">Make Your Day Great with Our Special Coffe!</h3>
+					<p class="description">Cafféra, ruang di mana kopi bercerita dan setiap cangkir memancarkan kebahagiaan.</p>
+
+					<div class="buttons">
+						<a href="#" class="button order-now">Order Now</a>
+						<a href="#" class="button contact-us">Contact Us</a>
+					</div>
+				</div>
+				<div class="hero-image-wrapper">
+					<img src="img/hero.png" alt="Hero" class="hero-image">
+				</div>
+			</div>
+	</section>
+
+
+	<!-- about section -->
+	 <section class="about-section" id="about">
+		<div class="section-content">
+			<div class="about-image-wrapper">
+				<img src="img/barista.jpg" alt="About" class="about-image">
+			</div>
+			<div class="about-details">
+				<h2 class="section-title">About Us</h2>
+				<p class="text">Cafféra hadir sebagai ruang hangat untuk menikmati secangkir kopi penuh cerita. Dengan racikan biji kopi pilihan dan suasana yang nyaman, setiap tegukan membawa ketenangan dan inspirasi baru.</p>
+			<div class="social-link-list">
+				<a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+				<a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+				<a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+				</div>
+			</div>
+		</div>
+	 </section>
+
+	 <!-- menu section -->
+	  <section class="menu-section" id="menu">
+		<h2 class="section-title">Menu Kita</h2>
+		<div class="section-content">
+			<ul class="menu-list">
+				<li class="menu-item">
+					<img src="img/cappucino.png" alt="Cappucino" class="menu-image">
+					<h3 class="name">Cappucino</h3>
+					<p class="text">Espresso bold, susu creamy, foam lembut — Cappuccino klasik dengan sentuhan istimewa dari Cafféra.</p>
+				</li>
+				<li class="menu-item">
+					<img src="img/americano.png" alt="Americano" class="menu-image">
+					<h3 class="name">Americano</h3>
+					<p class="text">Espresso murni dengan air panas, rasa kopi yang kuat dan jernih.</p>
+				</li>
+				<li class="menu-item">
+					<img src="img/matcha.png" alt="Matcha" class="menu-image">
+					<h3 class="name">Matcha Latte</h3>
+					<p class="text">Matcha hijau premium berpadu susu creamy, segar dan menenangkan.</p>
+				</li>
+				<li class="menu-item">
+					<img src="img/redvelvet.png" alt="Redvelvet" class="menu-image">
+					<h3 class="name">Red Velvet</h3>
+					<p class="text">Rasa manis lembut dengan warna khas merah elegan, manisnya pas di lidah.</p>
+				</li>
+				<li class="menu-item">
+					<img src="img/lemontea.png" alt="Lemontea" class="menu-image">
+					<h3 class="name">Lemon Tea</h3>
+					<p class="text">Teh segar dengan sentuhan lemon, ringan, segar, dan menyegarkan hari.</p>
+				</li>
+				<li class="menu-item">
+					<img src="img/milkshake.png" alt="Milkshake" class="menu-image">
+					<h3 class="name">Strawberry Milkshake</h3>
+					<p class="text">Perpaduan stroberi segar dan susu manis yang creamy, manis dan menyegarkan.</p>
+				</li>
+			</ul>
+		</div>
+	  </section>
+
+	  <!-- testimoni section -->
+	  <section class="testimonials-section" id="testimonials">
+		<h2 class="section-title">Testimoni</h2>
+		<div class="section-content">
+			<div class="slider-content swiper">
+				<div class="slider-wrapper">
+					<ul class="testimonials-list swiper-wrapper">
+						<li class="testimonials swiper-slide">
+							<img src="img/reviewer (2).jpg" alt="User" class="user-image">
+							<h3 class="name">Rian Santoso</h3>
+							<i class="feedback">"Cappuccino-nya enak banget, foam-nya lembut dan rasanya pas. Tempatnya juga cozy buat belajar."</i>
+						</li>
+						<li class="testimonials swiper-slide">
+							<img src="img/reviewer1.jpeg" alt="User" class="user-image">
+							<h3 class="name">Andi Pratama</h3>
+							<i class="feedback">"Americano di sini bikin segar dan fokus kerja. Suasana cafenya tenang, cocok banget buat meeting."</i>
+						</li>
+						<li class="testimonials swiper-slide">
+							<img src="img/reviewer (1).jpg" alt="User" class="user-image">
+							<h3 class="name">Clara Wijaya</h3>
+							<i class="feedback">"Dekorasi cafenya instagramable! Matcha latte-nya creamy dan manisnya pas, favoritku banget."</i>
+						</li>
+						<li class="testimonials swiper-slide">
+							<img src="img/reviewer 3.jpg" alt="User" class="user-image">
+							<h3 class="name">Dimas Arya Saputra</h3>
+							<i class="feedback">"Sebagai orang yang sering kerja remote, Cafféra jadi spot andalan aku. Wi-Fi kencang, colokan banyak, dan pastinya Americano-nya mantap, bikin fokus tetap terjaga."</i>
+						</li>
+						<li class="testimonials swiper-slide">
+							<img src="img/reviewer 4.jpg" alt="User" class="user-image">
+							<h3 class="name">Ayu Pratiwi</h3>
+							<i class="feedback">"Tempatnya cozy banget buat nugas atau sekadar ngobrol sama teman. Cappuccino di sini punya rasa yang lembut tapi tetap strong, favorit aku banget!"</i>
+						</li>
+						<li class="testimonials swiper-slide">
+							<img src="img/reviewer 5.jpg" alt="User" class="user-image">
+							<h3 class="name">Nisa Putri Lestari</h3>
+							<i class="feedback">"Aku suka ambience Cafféra, musiknya menenangkan dan interiornya elegan tapi tetap hangat. Matcha latte-nya creamy dan pas manisnya. Bikin betah lama-lama di sini."</i>
+						</li>
+					</ul>
+
+					<div class="swiper-pagination"></div>
+					<div class="swiper-slide-button swiper-button-prev"></div>
+  					<div class="swiper-slide-button swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+
+	  </section>
+
+	  <!-- galery section -->
+	  <section class="gallery-section" id="gallery">
+		<h2 class="section-title">Galeri</h2>
+		<div class="section-content">
+			<ul class="gallery-list">
+				<li class="gallery-item">
+					<img src="img/1 (1).jpg" alt="Gallery" class="gallery-images">
+				</li>
+				<li class="gallery-item">
+					<img src="img/1 (2).jpg" alt="Gallery" class="gallery-images">
+				</li>
+				<li class="gallery-item">
+					<img src="img/1 (3).jpg" alt="Gallery" class="gallery-images">
+				</li>
+				<li class="gallery-item">
+					<img src="img/1 (4).jpg" alt="Gallery" class="gallery-images">
+				</li>
+				<li class="gallery-item">
+					<img src="img/1 (5).jpg" alt="Gallery" class="gallery-images">
+				</li>
+				<li class="gallery-item">
+					<img src="img/1 (6).jpg" alt="Gallery" class="gallery-images">
+				</li>
+			</ul>
+		</div>
+	  </section>
+
+	  <!-- contact us section -->
+	   <section class="contact-section" id="contact">
+		<h2 class="section-title">Contact Us</h2>
+		<div class="section-content">
+			<ul class="contact-info-list">
+				<li class="contact-info">
+					<i class="fa-solid fa-location-crosshairs"></i>
+					<p>Jln. D. Kartawigenda RT 18 RW 05 Karanganyar Kec. Subang Subang Kab. Subang</p>
+				</li>
+				<li class="contact-info">
+					<i class="fa-solid fa-envelope"></i>
+					<p>caffera_caffe.email.com</p>
+				</li>
+				<li class="contact-info">
+					<i class="fa-solid fa-phone"></i>
+					<p>0895605976398</p>
+				</li>
+				<li class="contact-info">
+					<i class="fa-solid fa-clock"></i>
+					<p>Senin - Jum’at : 09:00 AM - 05:00 PM</p>
+				</li>
+				<li class="contact-info">
+					<i class="fa-solid fa-clock"></i>
+					<p>Sabtu - Minggu : 10:00 AM - 03:00 PM</p>
+				</li>
+				<li class="contact-info">
+					<i class="fa-solid fa-globe"></i>
+					<p>www.cafferacafe.com</p>
+				</li>
+			</ul>
+
+			<form action="#" class="contact-form">
+				<input type="text" placeholder ="Your name" class="form-input" required>
+				<input type="email" placeholder ="Your email" class="form-input" required>
+				<textarea placeholder ="Your message"  class="form-input" required></textarea>
+				<button class="submit-button">Submit</button>
+			</form>
+		</div>
+	   </section>
+
+	   <!-- footer -->
+		<footer class="footer-section">
+			<div class="section-content">
+				<p class="copyright-text">2025 Cafféra Shop</p>
+
+				<div class="social-link-list">
+				<a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+				<a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+				<a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+				</div>
+
+				<p class="policy-text"></p>
+				<a href="#" class="policy-link">Privacy Policy</a>
+				<span class="separator">|</span>
+				<a href="#" class="policy-link">Refund Policy</a>
+			</div>
+
+		</footer>
+
+	</main>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+	<script src="js/script.js"></script>
+
+</body>
+</html>
